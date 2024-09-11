@@ -1,4 +1,27 @@
 form {
   margin-top: 30px;
   text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.Search-input {
+  padding: 5px;
+  width: 70%;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #800008;
+  font-size: 20px;
+}
+
+.Search-btn {
+  padding: 15px 0;
+  width: 25%;
+  background-color: #800008;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  border-radius: 5px;
 }
