@@ -4,7 +4,7 @@ form {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .Search-input {
@@ -12,16 +12,22 @@ form {
   width: 70%;
   border: none;
   outline: none;
-  border-bottom: 3px solid #800008;
-  font-size: 20px;
+  border-bottom: 5px solid #fddfdf;
+  font-size: 23px;
+  background-color: #fcf7de;
 }
 
 .Search-btn {
-  padding: 15px 0;
+  padding: 20px 0;
   width: 25%;
-  background-color: #800008;
+  background-color: #fddfdf;
   border: none;
   outline: none;
-  color: #ffffff;
+  color: black;
   border-radius: 5px;
+  font-size: 25px;
+}
+
+.hint {
+  margin-bottom: 10px;
 }

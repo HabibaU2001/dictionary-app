@@ -31,9 +31,12 @@ export default function Dictionary() {
           className="Search-input"
           type="search"
           onChange={HandleKeywordChange}
+          placeholder="Search for a word"
         />
-        <button className="Search-btn"> Search </button>
+        <button className="Search-btn"> 🔍 </button>
       </form>
+      <div className="hint">E.g. sunset, ambition, yoga, conflict</div>
+
       <Results results={results} />
     </div>
   );

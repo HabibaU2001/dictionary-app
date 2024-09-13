@@ -1,8 +1,11 @@
 import React from "react";
 import Meaning from "./Meaning";
 import Phonetic from "./Phonetic";
+import "./Results.css";
 
 export default function Results(props) {
+  const maxDefinitions = 3;
+
   if (props.results) {
     return (
       <div className="Results">
@@ -10,19 +13,26 @@ export default function Results(props) {
 
         {props.results.phonetics.map(function (phonetic, index) {
           return (
-            <div key={index}>
+            <div key={index} className="phonetic-item">
               <Phonetic phonetic={phonetic} />
             </div>
           );
         })}
 
-        {props.results.meanings.map(function (meaning, index) {
-          return (
-            <div key={index}>
-              <Meaning meaning={meaning} />
-            </div>
-          );
-        })}
+        {props.results.meanings
+          .slice(0, maxDefinitions)
+          .map(function (meaning, index) {
+            return (
+              <section key={index} className="meaning-item">
+                <Meaning meaning={meaning} />
+                {meaning.synonyms && meaning.synonyms.length > 0 && (
+                  <p className="synonyms">
+                    Synonyms: {meaning.synonyms.join(", ")}
+                  </p>
+                )}
+              </section>
+            );
+          })}
       </div>
     );
   } else {

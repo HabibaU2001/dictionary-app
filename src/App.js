@@ -9,7 +9,23 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer>Coded by Habiba Uddin</footer>
+        <footer>
+          <p className="footer-links">
+            This project was coded by Habiba Uddin and is open sourced on
+            <a
+              href="https://github.com/HabibaU2001/weather-react"
+              target="_blank"
+            >
+              {" "}
+              Github
+            </a>{" "}
+            and hosted on
+            <a href="https://wordwiz-app.netlify.app/" target="_blank">
+              {" "}
+              Netlify
+            </a>
+          </p>
+        </footer>
       </div>
     </div>
   );

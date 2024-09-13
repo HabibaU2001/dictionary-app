@@ -1,12 +1,13 @@
 body {
-  background-color: #800000;
+  background-color: #defde0;
+  font-family: "Rosario", sans-serif;
 }
 
 .container {
-  max-width: 600px;
-  background-color: white;
+  max-width: 650px;
+  background-color: #fcf7de;
   margin-top: 80px;
-  padding: 80px 50px;
+  padding: 50px 30px 10px;
   border-radius: 10px;
   box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
 }
@@ -20,4 +21,18 @@ h1 {
 footer {
   text-align: center;
   margin: 30px;
+}
+
+.footer-links {
+  margin: 35px 0;
+  font-size: 16px;
+}
+
+.footer-links a {
+  color: #9abccd;
+  font-size: 19px;
+}
+
+.footer-links a:hover {
+  font-weight: bold;
 }
