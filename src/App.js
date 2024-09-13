@@ -15,12 +15,17 @@ export default function App() {
             <a
               href="https://github.com/HabibaU2001/weather-react"
               target="_blank"
+              rel="noreferrer"
             >
               {" "}
               Github
             </a>{" "}
             and hosted on
-            <a href="https://wordwiz-app.netlify.app/" target="_blank">
+            <a
+              href="https://wordwiz-app.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               {" "}
               Netlify
             </a>
