@@ -2,7 +2,6 @@ import React from "react";
 import "./Results.css";
 
 export default function Meaning(props) {
-  console.log(props.definition);
   return (
     <div className="Meaning">
       <h4>{props.meaning.partOfSpeech}</h4>

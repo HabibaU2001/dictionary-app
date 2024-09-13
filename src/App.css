@@ -1,6 +1,6 @@
 body {
   background-color: #defde0;
-  font-family: "Rosario", sans-serif;
+  font-family: "Rosario";
 }
 
 .container {
@@ -25,11 +25,11 @@ footer {
 
 .footer-links {
   margin: 35px 0;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .footer-links a {
-  color: #9abccd;
+  color: #5893b2;
   font-size: 19px;
 }
 
