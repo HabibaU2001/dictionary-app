@@ -13,7 +13,7 @@ export default function App() {
           <p className="footer-links">
             This project was coded by Habiba Uddin and is open sourced on
             <a
-              href="https://github.com/HabibaU2001/weather-react"
+              href="https://github.com/HabibaU2001/dictionary-app"
               target="_blank"
               rel="noreferrer"
             >
